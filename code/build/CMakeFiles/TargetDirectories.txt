@@ -1,4 +1,0 @@
-/mnt/c/PHD_Projects/lattice-anonymous-credentials/code/build/CMakeFiles/test.dir
-/mnt/c/PHD_Projects/lattice-anonymous-credentials/code/build/CMakeFiles/bench.dir
-/mnt/c/PHD_Projects/lattice-anonymous-credentials/code/build/CMakeFiles/edit_cache.dir
-/mnt/c/PHD_Projects/lattice-anonymous-credentials/code/build/CMakeFiles/rebuild_cache.dir
