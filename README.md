@@ -27,6 +27,20 @@ cmake ..
 make -j
 ```
 
+To pull submodules use:
+```shell
+git submodule update --init --recursive
+```
+
+To install FLINT use:
+```shell
+cd code/libs/flint
+./bootstrap.sh
+./configure
+make
+sudo make install
+```
+
 Then, running `./test` or `./bench` runs the tests or the benchmarks, respectively.
 
 ## Building with Docker
