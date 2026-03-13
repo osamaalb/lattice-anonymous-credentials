@@ -69,7 +69,7 @@ static inline void multiply(arb_poly_t out, const arb_poly_t x, const arb_poly_t
       arb_poly_get_coeff_arb(AUX, out, i + (1<<log_dim));
       arb_sub(TMP, TMP, AUX, POLY_REAL_PRECISION);
       arb_poly_set_coeff_arb(out, i, TMP);
-      arb_poly_set_coeff_si( out, i + (1<<log_dim), 0);
+      arb_poly_set_coeff_si(out, i + (1<<log_dim), 0);
     }
   } else {
     arb_poly_get_coeff_arb(TMP, x, 0);
